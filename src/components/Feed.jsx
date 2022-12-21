@@ -36,7 +36,7 @@ const Feed = () => {
           Copyright 2022 | Sukshan Channe
         </Typography>
       </Box>
-      <Box p={2} sx={{overflowY: 'auto', height: '90vh', flex: 2}}>
+      <Box p={2} sx={{overflowY: 'auto', height: '90vh', flex: 2, width: { sx: '100vw', md: '100vw' }}}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{
           color: 'white'
         }}>
