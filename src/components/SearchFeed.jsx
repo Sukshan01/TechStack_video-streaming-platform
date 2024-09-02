@@ -21,8 +21,8 @@ const { searchTerm } = useParams();
   }, [searchTerm]);
 
   return (
-   
-      <Box p={2} sx={{width: "100%", overflowY: 'auto', height: '90vh', flex: 2, mt: 0, mb: 0, mr: 4, ml: 0}}>
+    
+      <Box p={0}  sx={{width: "100%", overflowY: 'auto', height: '90vh', flex: 2, mt: 0, mb: 0, mr: 4, ml: 0}}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{
           color: 'white'
         }}>

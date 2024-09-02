@@ -62,13 +62,7 @@ a {
   transition: all 0.3s ease;
 }
 
-/* Added */
-@media (min-width: 600px){
 
-.css-1ft0uyk-MuiCardMedia-root {
-    width: 270px;
-}
-}
 
 @media screen and (max-width: 900px) {
   .category-btn{
